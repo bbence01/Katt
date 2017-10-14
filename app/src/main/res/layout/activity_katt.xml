@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.katt.Katt">
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:text="Nem nyert"
+        android:id="@+id/nyert"
+        tools:layout_editor_absoluteY="33dp"
+        tools:layout_editor_absoluteX="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="67dp" />
+
+    <Button
+        android:text=""
+        android:layout_width="133dp"
+        android:layout_height="113dp"
+        android:id="@+id/button1"
+
+        android:background="@color/colorblue"
+        style="@style/Widget.AppCompat.Button.Colored"
+        tools:layout_editor_absoluteY="176dp"
+        tools:layout_editor_absoluteX="42dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Button
+        android:text=""
+        android:layout_width="125dp"
+        android:layout_height="96dp"
+        android:layout_alignTop="@+id/button3"
+        android:id="@+id/button4"
+        android:background="@color/colorgreen"
+        style="@style/Widget.AppCompat.Button.Colored"
+        tools:layout_editor_absoluteY="345dp"
+        tools:layout_editor_absoluteX="203dp"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:text=""
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="35dp"
+        android:id="@+id/button2"
+        android:background="@color/colorred"
+        style="@style/Widget.AppCompat.Button.Colored"
+        tools:layout_editor_absoluteY="176dp"
+        tools:layout_editor_absoluteX="208dp"
+        android:layout_marginRight="35dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text=""
+        android:layout_width="139dp"
+        android:layout_height="100dp"
+        android:id="@+id/button3"
+        android:background="@color/coloryel"
+        style="@style/Widget.AppCompat.Button.Colored"
+        tools:layout_editor_absoluteY="341dp"
+        tools:layout_editor_absoluteX="42dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_marginTop="12dp"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+
+    <Button
+        android:text="Új Játék"
+        android:layout_width="128dp"
+        android:layout_height="66dp"
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        tools:layout_editor_absoluteY="29dp"
+        tools:layout_editor_absoluteX="203dp"
+        android:layout_alignTop="@+id/nyert"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+
+</RelativeLayout>
